@@ -1,0 +1,21 @@
+#userTitle {
+	text-align:left;
+	position: absolute;
+	left: 25%;
+	color: #383838;
+}
+
+/* ±Ìµ•Œª÷√ */
+.password-form {
+	position: absolute;
+	left: 17%;
+	top: 17%;
+	text-size:13spx;
+}
+.password-form input{
+	height:15px;
+}
+.password-form #submit{	
+	height:33px;
+}
+

@@ -1,0 +1,14 @@
+/* 文字居中 */
+.text-center{
+	text-align:center;
+	color: #383838;
+}
+
+/* 表单居中 */
+.center-form{
+	position: absolute;
+	width:400px;	
+	left: 50%;
+	margin-left:-150px;
+	text-align:left;
+}

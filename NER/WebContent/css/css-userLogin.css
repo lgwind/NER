@@ -1,0 +1,11 @@
+.title {
+	width: 450px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top:-175px; 
+	margin-left:-210px;
+/* 	border:2px solid #FF6347; */
+/* 	background-color: #FF6347; */
+}

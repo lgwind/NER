@@ -1,0 +1,80 @@
+#userTitle {
+	text-align:left;
+	position: absolute;
+	left: 25%;
+	color: #383838;
+}
+/* 用户表div */
+.user-div{	
+	position: absolute;
+	width:900px;
+	left: 50%;
+	top: 15%;
+	margin-left:-410px;
+	text-align:center;
+}
+.user-div th{
+	min-width:160px;
+	height:35px;
+	background-color: #1E90FF;
+	color: #E6E6FA;
+}
+.user-div td{
+	height：32px;
+}
+
+/* 查询用户div */
+#userSearch {
+	position: absolute;
+	left: 56.8%;
+	top: 8%;
+}
+#userSearch #userSearch-button{
+	min-width:120px;
+	height:33px;
+	padding-top:6px;
+}
+
+/* 添加用户div */
+#userAdd{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:250px;
+	left: 50%;
+	top: 50%;
+	margin-left:-200px;
+	margin-top:-150px;
+	text-align:center;
+	display:none;
+}
+#userAdd .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 7.5%;
+	cursor:pointer;
+}
+
+/* 修改用户div */
+#userUpdate{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:250px;
+	left: 50%;
+	top: 50%;
+	margin-left:-200px;
+	margin-top:-150px;
+	text-align:center;
+	display:none;
+}
+#userUpdate .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 7.5%;
+	cursor:pointer;
+}

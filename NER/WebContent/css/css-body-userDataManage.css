@@ -1,0 +1,151 @@
+#dataTitle {
+	text-align:left;
+	position: absolute;
+	left: 22%;
+	color: #383838;
+}
+
+#export {
+	position: absolute;
+	left:12px;
+	top: 25px;
+	color:#436EEE;
+}
+/* 导出xls按钮样式 */
+#export #xls-input{
+	background-color: #43CD80;
+	color: #ffffff;
+	min-width:10px;
+	border: 0;
+	cursor:pointer;
+}
+
+/* 导出csv按钮样式 */
+#export #csv-input{
+	background-color: #8B636C;
+	color: #ffffff;
+	min-width:10px;
+	border: 0;
+	cursor:pointer;
+}
+
+/* 导出xls文件弹出层div */
+#exportXLSPopup{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:120px;
+	left: 50%;
+	top: 50%;
+	margin-left:-490px;
+	margin-top:-180px;
+	text-align:center;
+	display:none;
+}
+#exportXLSPopup .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 19px;
+	cursor:pointer;
+}
+
+/* 导出csv文件弹出层div */
+#exportCSVPopup{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:120px;
+	left: 50%;
+	top: 50%;
+	margin-left:-490px;
+	margin-top:-180px;
+	text-align:center;
+	display:none;
+}
+#exportCSVPopup .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 19px;
+	cursor:pointer;
+}
+
+/* 用户数据表div */
+.data-div{	
+	position: absolute;
+	width:980px;
+	left: 50%;
+	top: 15%;
+	margin-left:-490px;
+	text-align:center;
+	font-size:12px;
+}
+.data-div th{
+	width:120px;
+	height:35px;
+	background-color: #1E90FF;
+	color: #E6E6FA;
+	font-size:14px;
+}
+.data-div td{
+	height：32px;
+}
+
+/* 查询用户div */
+#dataSearch {
+	position: absolute;
+	left: 58.1%;
+	top: 8%;
+}
+#dataSearch #dataSearch-button{
+	min-width:120px;
+	height:33px;
+	padding-top:6px;
+}
+
+/* 添加用户数据div */
+#dataAdd{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:510px;
+	left: 50%;
+	top: 50%;
+	margin-left:-200px;
+	margin-top:-250px;
+	text-align:center;
+	display:none;
+}
+#dataAdd .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 4.3%;
+	cursor:pointer;
+}
+
+/* 修改用户div */
+#dataUpdate{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:510px;
+	left: 50%;
+	top: 50%;
+	margin-left:-200px;
+	margin-top:-250px;
+	text-align:center;
+	display:none;
+}
+#dataUpdate .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 7.5%;
+	cursor:pointer;
+}

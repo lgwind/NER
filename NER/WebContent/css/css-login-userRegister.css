@@ -1,0 +1,29 @@
+/* 添加用户div */
+#userRegister{
+	background-color: #E6E6FA;
+	position: absolute;
+	width:400px;
+	height:250px;
+	left: 50%;
+	top: 50%;
+	margin-left:-200px;
+	margin-top:-150px;
+	text-align:center;
+	display:none;
+}
+#userRegister .quit{
+	position: absolute;
+	width:30px;
+	height:24px;
+	left: 87%;
+	top: 7.5%;
+	cursor:pointer;
+}
+/* 表单居中 */
+#userRegister .center-form{
+	position: absolute;
+	width:400px;	
+	left: 50%;
+	margin-left:-160px;
+	text-align:left;
+}

@@ -1,0 +1,40 @@
+.title-div-lgwind li{
+/* 	background-color: #E0FFFF; */
+	float:left;
+	min-width:135px;
+/* 	margin-right:25px; */
+	height: 40px;
+	text-align:center;
+	font-size:18px;
+	color: #575757;
+/* 	border:2px solid #FF6347; */
+	list-style-type:none; /*去掉前方小点· */
+	cursor: pointer; /*更改鼠标图案*/
+}
+.title-div-lgwind li:hover{
+	color: #292929;
+	font-size:19px;
+}
+.title-div-lgwind a {
+	text-decoration: none;
+}
+
+/* 退出按钮 */
+.quit-button{
+	border-radius: 6px;
+	width: 100px;
+	height: 60px;
+/* 	border:2px solid #FF6347; */
+	position: absolute;
+	left: 50%;
+	top: 10.5px;
+	margin-left:380px;
+}
+.quit-button input{
+	min-width:100px;
+	background-color: #B9D3EE;
+	color: #436EEE;
+	border: 0px solid #ccc;
+	cursor: pointer; /*更改鼠标图案*/
+	font-size:16px;
+}
